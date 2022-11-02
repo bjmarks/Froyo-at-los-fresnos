@@ -1,0 +1,23 @@
+body { background-color: lightblue; }
+header img{ margin: auto; display: block; width: 40vw;}
+div.nav-links ul li{ padding: 10px; float: left; display: flex;}
+div.nav-links ul li a{ color: black; flex: 2; text-decoration: none; background-color: rgba(200,200,40,1); border-radius: 10px; padding: 10px;}
+div.nav-links ul li a:hover, ul li a:active{ background-color: white;}
+div.nav-links .active a{ background-color: lightblue; }
+.nav-links ul{ float: left; padding-right: 25%; padding-left: 25%; }
+hr{clear: both; display: block; border-width: 1px; margin-top: 0; }
+footer{clear: both; background-color: black; color: white; margin: 0; padding: 0; text-align: center;}
+.nav-links { background-color: rgba(0,0,255,0.5);}
+#map {left: 12%; padding-bottom: 20px; width: 75%; float: left; height: 500px; background: white;}
+		*{ margin: 0; padding: 0;}
+.colm{display: block; width: 90%; padding: 10px; background-color: rgba(255,255,255,0.6); border: thin; border-style: solid;  margin: auto; text-align: justify; }
+
+@media screen and (max-width: 440px){
+  body { background-color: rgba(255,125,255, 0.8); }
+  div.nav-links ul li{ padding-left: 5px;  padding-right: 5px; float: left; display: block;}
+div.nav-links ul li a{ color: black; display: block; text-decoration: none; background-color: lightgreen; border-radius: 10px; padding: 6px; margin: 0px;}
+  ul{margin: 0px; padding: 0px;}
+div.nav-links ul li a:hover, ul li a:active{ background-color: white;}
+div.nav-links .active a{ background-color: lightblue; }
+}
+
